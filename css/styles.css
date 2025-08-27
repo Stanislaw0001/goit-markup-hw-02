@@ -1,20 +1,35 @@
 /* ----HEADER-LOGO---- */
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
 .header {
     background-color: #ffffff;
 }
 
 .header-logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        color: #4d5ae5;
-        text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-span {
+    color: #2e2f42;
 }
 
 nav ul li a {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    color: #434455;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+    color: #2e2f42;
     text-decoration: none;
 }
 
@@ -26,15 +41,18 @@ nav ul li a:focus {
 /*-----HEADER-CONTACTS-----*/
 .header-contacts a {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+    color: #434455;
     text-decoration: none;
 }
 
 .header-contacts a:hover,
 .header-contacts a:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 /*----MAIN-HERO----*/
@@ -48,6 +66,9 @@ nav ul li a:focus {
     font-size: 56px;
     color: #ffffff;
     margin-bottom: 16px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -57,12 +78,14 @@ nav ul li a:focus {
     color: #ffffff;
     background-color: #4d5ae5;
     text-decoration: underline;
-    display: inline-block;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #3b47c4;
+    background-color: #404bbf;
 }
 
 .features {
@@ -81,6 +104,8 @@ nav ul li a:focus {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
+    line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .features-text {
@@ -88,6 +113,8 @@ nav ul li a:focus {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 /*----MAIN-TEAM----*/
@@ -101,9 +128,13 @@ nav ul li a:focus {
     font-weight: 700;
     font-size: 36px;
     color: #2E2F42;
+    line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
 }
 
-.team-img {
+.team-list {
     background-color: #ffffff;
 }
 .team-subtitle {
@@ -111,6 +142,8 @@ nav ul li a:focus {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
+    line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .team-text {
@@ -118,6 +151,8 @@ nav ul li a:focus {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 /*----MAIN-PORTFOLIO----*/
@@ -131,9 +166,13 @@ nav ul li a:focus {
     font-weight: 700;
     font-size: 36px;
     color: #2E2F42;
+    line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
 }
 
-.portfolio-img {
+.portfolio-list {
     background-color: #ffffff;
 }
 
@@ -142,6 +181,8 @@ nav ul li a:focus {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
+    line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-text {
@@ -149,24 +190,29 @@ nav ul li a:focus {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 /*----FOOTER----*/
 
-.footer {
-    background-color: #2E2F42;
+.footer-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        color: #4d5ae5;
-        text-decoration: none;
+.footer-logo span {
+    color: #2e2f42;
 }
 
 .footer-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #f4f4fd;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
