@@ -41,13 +41,13 @@ nav ul li a:focus {
 /*-----HEADER-CONTACTS-----*/
 .header-contacts a {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
         letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    font-style: normal;
 }
 
 .header-contacts a:hover,
@@ -157,10 +157,6 @@ nav ul li a:focus {
 
 /*----MAIN-PORTFOLIO----*/
 
-.portfolio {
-    background-color: #ffffff;
-}
-
 .portfolio-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -172,7 +168,7 @@ nav ul li a:focus {
         text-transform: capitalize;
 }
 
-.portfolio-list {
+.portfolio-item {
     background-color: #ffffff;
 }
 
@@ -196,7 +192,12 @@ nav ul li a:focus {
 
 /*----FOOTER----*/
 
+.footer {
+background-color: #2e2f42;
+}
+
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -205,8 +206,8 @@ nav ul li a:focus {
         color: #4d5ae5;
 }
 
-.footer-logo span {
-    color: #2e2f42;
+.footer-span {
+    color: #f4f4fd;
 }
 
 .footer-text {
