@@ -39,6 +39,11 @@ nav ul li a:focus {
 }
 
 /*-----HEADER-CONTACTS-----*/
+
+.header-contacts {
+    font-style: normal;
+}
+
 .header-contacts a {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -47,7 +52,6 @@ nav ul li a:focus {
         letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    font-style: normal;
 }
 
 .header-contacts a:hover,
@@ -157,6 +161,10 @@ nav ul li a:focus {
 
 /*----MAIN-PORTFOLIO----*/
 
+.portfolio {
+    background-color: #ffffff;
+}
+
 .portfolio-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -166,10 +174,6 @@ nav ul li a:focus {
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
-}
-
-.portfolio-item {
-    background-color: #ffffff;
 }
 
 .portfolio-subtitle {
