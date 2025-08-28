@@ -161,10 +161,6 @@ nav ul li a:focus {
 
 /*----MAIN-PORTFOLIO----*/
 
-.portfolio-item {
-    background-color: #ffffff;
-}
-
 .portfolio-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -174,6 +170,10 @@ nav ul li a:focus {
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+}
+
+.portfolio-item {
+    background-color: #ffffff;
 }
 
 .portfolio-subtitle {
